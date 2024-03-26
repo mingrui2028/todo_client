@@ -82,3 +82,7 @@ input.addEventListener('keypress', (event) => {
 })
 
 getTasks();
+
+const BACKEND_ROOT_URL = 'https://todo-server-h7ht.onrender.com'
+import {Todos} from"./class/Todos.js"
+const todos= new Todos(BACKEND_ROOT_URL)
